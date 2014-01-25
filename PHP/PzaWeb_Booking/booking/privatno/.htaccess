@@ -1,0 +1,4 @@
+AuthUserFile /var/www/PzaWeb/PzaWeb2007_17/privatno/.htpasswd 	
+AuthName "Online Booking TIM 17" 	
+AuthType Basic 	
+Require valid-user 	

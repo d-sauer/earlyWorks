@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="WindowsApplication7.frmLogin" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmLogin.vb</FileName>
+      <HashCode>AAAAAAAAECAEAAAAAACAABiDIAAAcAgACEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.frmMain" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmMain.vb</FileName>
+      <HashCode>IQJkNoJKOHAQSYC2tAqVE1oLnYD0JMi3RUDEuUmEEiA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="WindowsApplication7.frmDoktori" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmDoktori.vb</FileName>
+      <HashCode>CEAgMgBAECEERQAIAQiABAADjAEE8AwCCMABgQQAgEI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.About" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>About.vb</FileName>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAgCAAAAQAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.frmPac" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmPac.vb</FileName>
+      <HashCode>gAEkIgADMCQQWoAAEQiBAIQHKAAQ4ARGBMAAIQAAFIY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.frmPart" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmPart.vb</FileName>
+      <HashCode>AAAAQgAAEKAAAIAAEQCAAIAPAQEA4AQGBMAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.frmStatistic" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmStatistic.vb</FileName>
+      <HashCode>AAAiAgGDEKAUCSGAIECCAABHJAAgYKQI5cABAARCSQM=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsApplication7.frmZahvati" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmZahvati.vb</FileName>
+      <HashCode>AAQAAgAAECAEQAAAEQCAAIADAAEE6AQCgMABAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

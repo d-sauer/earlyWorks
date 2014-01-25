@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="SqlConnection">
+      <ConnectionProperties>
+        <ConnectString>Data Source=ZIRAF\SQLEXPRESS;Initial Catalog=dentist;Integrated Security=True</ConnectString>
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>25dc701f-76d4-4d7e-929e-2730ad990448</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>2.5cm</BottomMargin>
+  <RightMargin>2.5cm</RightMargin>
+  <PageWidth>21cm</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>0.5cm</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="id_rac">
+        <Left>3cm</Left>
+        <Top>0.5cm</Top>
+        <rd:DefaultName>id_rac</rd:DefaultName>
+        <ZIndex>5</ZIndex>
+        <Width>2.53968cm</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>600</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=first(Fields!id_rac.Value, "dentistDataSet_racun")</Value>
+      </Textbox>
+      <Table Name="table1">
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox18">
+                      <rd:DefaultName>textbox18</rd:DefaultName>
+                      <ZIndex>3</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Ukupno:</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="cijena_1">
+                      <rd:DefaultName>cijena_1</rd:DefaultName>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Sum(Fields!cijena.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>1cm</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <ZIndex>5</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Participacija:</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="participacija_1">
+                      <rd:DefaultName>participacija_1</rd:DefaultName>
+                      <ZIndex>4</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!participacija.Value, "dentistDataSet_racun")</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.63492cm</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <ZIndex>7</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>700</FontWeight>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Cijena:</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <ZIndex>6</ZIndex>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>700</FontWeight>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Sum(Fields!cijena.Value) * (First(Fields!participacija.Value, "dentistDataSet_racun") / 100)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.63492cm</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>8.75cm</Left>
+        <DataSetName>dentistDataSet_rac_zahvat</DataSetName>
+        <Top>6.75cm</Top>
+        <ZIndex>4</ZIndex>
+        <Width>10.57981cm</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="zahvat">
+                      <rd:DefaultName>zahvat</rd:DefaultName>
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!zahvat.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="cijena">
+                      <rd:DefaultName>cijena</rd:DefaultName>
+                      <Style>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!cijena.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.5cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox12">
+                      <rd:DefaultName>textbox12</rd:DefaultName>
+                      <ZIndex>9</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zahvat</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <rd:DefaultName>textbox13</rd:DefaultName>
+                      <ZIndex>8</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Cijena</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.75cm</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>6.25cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>4.32981cm</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>3.51984cm</Height>
+      </Table>
+      <Textbox Name="datum">
+        <Left>14.5cm</Left>
+        <Top>0.5cm</Top>
+        <rd:DefaultName>datum</rd:DefaultName>
+        <ZIndex>3</ZIndex>
+        <Width>5.25cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>600</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>="Datum izdavanja: " &amp; First(Fields!datum.Value, "dentistDataSet_racun")</Value>
+      </Textbox>
+      <Line Name="line1">
+        <Left>1cm</Left>
+        <Top>1.25cm</Top>
+        <ZIndex>2</ZIndex>
+        <Width>18.75cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox1">
+        <Left>1cm</Left>
+        <Top>0.5cm</Top>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <ZIndex>1</ZIndex>
+        <Width>2cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>600</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Račun br.:</Value>
+      </Textbox>
+      <Rectangle Name="rectangle1">
+        <Left>1cm</Left>
+        <ReportItems>
+          <Textbox Name="ljecnik">
+            <Left>2.25cm</Left>
+            <Top>3.5cm</Top>
+            <rd:DefaultName>ljecnik</rd:DefaultName>
+            <ZIndex>8</ZIndex>
+            <Width>6cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>=First(Fields!ljecnik.Value, "dentistDataSet_racun")</Value>
+          </Textbox>
+          <Textbox Name="textbox10">
+            <Left>0.5cm</Left>
+            <Top>3.5cm</Top>
+            <rd:DefaultName>textbox10</rd:DefaultName>
+            <ZIndex>7</ZIndex>
+            <Width>1.5cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>Ljecnik:</Value>
+          </Textbox>
+          <Line Name="line2">
+            <Left>0.25cm</Left>
+            <Top>3.25cm</Top>
+            <ZIndex>6</ZIndex>
+            <Width>18.25cm</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <Height>0cm</Height>
+          </Line>
+          <Textbox Name="participacija">
+            <Left>3.25cm</Left>
+            <Top>2.25cm</Top>
+            <rd:DefaultName>participacija</rd:DefaultName>
+            <ZIndex>5</ZIndex>
+            <Width>5.5cm</Width>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>=first(Fields!participacija.Value, "dentistDataSet_racun")</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Left>0.5cm</Left>
+            <Top>1.25cm</Top>
+            <rd:DefaultName>textbox5</rd:DefaultName>
+            <ZIndex>4</ZIndex>
+            <Width>3.75cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>Br. osigurane osobe:</Value>
+          </Textbox>
+          <Textbox Name="textbox4">
+            <Left>0.5cm</Left>
+            <Top>0.5cm</Top>
+            <rd:DefaultName>textbox4</rd:DefaultName>
+            <ZIndex>3</ZIndex>
+            <Width>1.75cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>Pacjent:</Value>
+          </Textbox>
+          <Textbox Name="pacjent">
+            <Left>2.5cm</Left>
+            <Top>0.5cm</Top>
+            <rd:DefaultName>pacjent</rd:DefaultName>
+            <ZIndex>2</ZIndex>
+            <Width>5.75cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>=first(Fields!pacjent.Value, "dentistDataSet_racun")</Value>
+          </Textbox>
+          <Textbox Name="id_osobna">
+            <Left>4.5cm</Left>
+            <Top>1.25cm</Top>
+            <rd:DefaultName>id_osobna</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>4.75cm</Width>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>=First(Fields!id_osobna.Value, "dentistDataSet_racun")</Value>
+          </Textbox>
+          <Textbox Name="textbox8">
+            <Left>0.5cm</Left>
+            <Top>2.25cm</Top>
+            <rd:DefaultName>textbox8</rd:DefaultName>
+            <Width>2.5cm</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.63492cm</Height>
+            <Value>Participacija:</Value>
+          </Textbox>
+        </ReportItems>
+        <Top>1.5cm</Top>
+        <Width>18.75cm</Width>
+        <Style>
+          <BackgroundColor>#e0e0e0</BackgroundColor>
+        </Style>
+        <Height>4.75cm</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>197cm</Height>
+  </Body>
+  <rd:ReportID>16a6823d-f3c4-4a15-b713-b846a660db0c</rd:ReportID>
+  <LeftMargin>2.5cm</LeftMargin>
+  <DataSets>
+    <DataSet Name="dentistDataSet_racun">
+      <rd:DataSetInfo>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:DataSetName>dentistDataSet</rd:DataSetName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>racunTableAdapter</rd:TableAdapterName>
+        <rd:TableName>racun</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText>SELECT id_rac, pacjent, id_osobna, participacija, datum, id_ljec, id_term, ljecnik FROM racun</CommandText>
+        <DataSourceName>SqlConnection</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="id_rac">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_rac</DataField>
+        </Field>
+        <Field Name="pacjent">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>pacjent</DataField>
+        </Field>
+        <Field Name="id_osobna">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>id_osobna</DataField>
+        </Field>
+        <Field Name="participacija">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>participacija</DataField>
+        </Field>
+        <Field Name="datum">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>datum</DataField>
+        </Field>
+        <Field Name="id_ljec">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_ljec</DataField>
+        </Field>
+        <Field Name="ljecnik">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ljecnik</DataField>
+        </Field>
+        <Field Name="id_term">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_term</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="dentistDataSet_rac_zahvat">
+      <rd:DataSetInfo>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:DataSetName>dentistDataSet</rd:DataSetName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>rac_zahvatTableAdapter</rd:TableAdapterName>
+        <rd:TableName>rac_zahvat</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText>SELECT id_rac, zahvat, cijena FROM dbo.rac_zahvat</CommandText>
+        <DataSourceName>SqlConnection</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="id_rac">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_rac</DataField>
+        </Field>
+        <Field Name="zahvat">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>zahvat</DataField>
+        </Field>
+        <Field Name="cijena">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>cijena</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Width>21cm</Width>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

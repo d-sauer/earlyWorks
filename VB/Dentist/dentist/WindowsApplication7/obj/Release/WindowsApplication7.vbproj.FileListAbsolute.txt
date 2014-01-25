@@ -1,0 +1,4 @@
+D:\Programing\vb\Projekti\Dentist\WindowsApplication7\bin\Release\Dentist.exe.config
+D:\Programing\vb\Projekti\Dentist\WindowsApplication7\obj\Release\Dentist.exe
+D:\Programing\vb\Projekti\Dentist\WindowsApplication7\obj\Release\Dentist.xml
+D:\Programing\vb\Projekti\Dentist\WindowsApplication7\obj\Release\Dentist.pdb

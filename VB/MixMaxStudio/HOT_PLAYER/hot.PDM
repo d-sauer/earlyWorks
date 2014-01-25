@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=MMS Player
+
+
+[Package|MMS Player|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\mms player
+
+[Package|MMS Player|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MMS Player|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MMS Player|Files Found]
+
+[Package|MMS Player|Files Released]
+
+[Package|MMS Player|Missing Dependency Information]
+
+[Package|MMS Player|Out-of-Date Dependency Information]
+
+[Package|MMS Player|Files Added]
+
+[Package|MMS Player|Files Removed]
+
+[Package|MMS Player|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Profiles\Bor1$\Desktop\MMS Player.exe=Yes
+C:\WINDOWS\SYSTEM\Oci.ocx=Yes
+
+[Package|MMS Player|Configure Registry Files]
+Applicable=No
+
+[Package|MMS Player|Configure Remote Servers]
+Applicable=No
+
+[Package|MMS Player|Install Locations]
+E:\Mad FILES\HOT PLAYER\MMS Player.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+E:\Mad FILES\HOT PLAYER\Oci.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Profiles\Bor1$\Desktop\MMS Player.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Oci.ocx=$(WinSysPath)
+
+[Package|MMS Player|Configure Shared Files]
+Applicable=Yes
+E:\Mad FILES\HOT PLAYER\MMS Player.exe=Yes
+C:\WINDOWS\Profiles\Bor1$\Desktop\MMS Player.exe=Yes
+
+[Package|MMS Player|Distribution]
+Type=multi
+Size=1.44 MB
+Title=MMS Player
+
+[Package|MMS Player|IconGroups]
+Group0=MMS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MMS Player|MMS]
+Icon1="MMS Player.exe"
+Title1=MMS Player
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MMS Player|Package]
+PackageFolder=E:\mms player
+ProjectFolder=E:\Mad FILES\HOT PLAYER
+ServerSideCab=
+File1=E:\mms player\setup.exe
+File2=E:\mms player\Setup.Lst
+File3=E:\mms player\MMS Pl1.CAB
+File4=E:\mms player\MMS Pl2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

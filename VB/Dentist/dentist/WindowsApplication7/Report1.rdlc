@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="SqlConnection">
+      <ConnectionProperties>
+        <ConnectString>Data Source=ZIRAF\SQLEXPRESS;Initial Catalog=dentist;Integrated Security=True</ConnectString>
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>e89c103e-0f2c-4018-8264-8529fb5c93d4</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>2.5cm</BottomMargin>
+  <RightMargin>2.5cm</RightMargin>
+  <PageWidth>21cm</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="id_pac">
+        <Left>2.25cm</Left>
+        <Top>1.75cm</Top>
+        <rd:DefaultName>id_pac</rd:DefaultName>
+        <ZIndex>17</ZIndex>
+        <Width>1.5cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!id_pac.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Textbox Name="ime_prez">
+        <Left>4cm</Left>
+        <Top>2.5cm</Top>
+        <rd:DefaultName>ime_prez</rd:DefaultName>
+        <ZIndex>16</ZIndex>
+        <Width>6.21032cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!ime_prez.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Left>1.25cm</Left>
+        <Top>2.5cm</Top>
+        <rd:DefaultName>textbox5</rd:DefaultName>
+        <ZIndex>15</ZIndex>
+        <Width>2.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.5cm</Height>
+        <Value>Ime, prezime:</Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Left>1.25cm</Left>
+        <Top>1.75cm</Top>
+        <rd:DefaultName>textbox4</rd:DefaultName>
+        <ZIndex>14</ZIndex>
+        <Width>0.75cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>ID:</Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Left>10.5cm</Left>
+        <Top>0.75001cm</Top>
+        <rd:DefaultName>textbox2</rd:DefaultName>
+        <ZIndex>13</ZIndex>
+        <Width>3.25cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Otvaranje kartona:</Value>
+      </Textbox>
+      <Table Name="table1">
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox1">
+                      <ZIndex>5</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <ZIndex>4</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox17">
+                      <rd:DefaultName>textbox17</rd:DefaultName>
+                      <ZIndex>3</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.75cm</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>1.25cm</Left>
+        <DataSetName>dentistDataSet_ListZahvati_byDate</DataSetName>
+        <Top>5.75cm</Top>
+        <ZIndex>12</ZIndex>
+        <Width>19.25cm</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="termin">
+                      <rd:DefaultName>termin</rd:DefaultName>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!termin.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!zahvat.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox8">
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!komentar.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.5cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox9">
+                      <ZIndex>8</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Datum</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <ZIndex>7</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zahvat</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox14">
+                      <ZIndex>6</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontWeight>600</FontWeight>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>Komentar</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.75cm</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>5cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>5.5cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>8.75cm</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>2cm</Height>
+      </Table>
+      <Textbox Name="otvaranje">
+        <Left>14.25cm</Left>
+        <Top>0.75001cm</Top>
+        <rd:DefaultName>otvaranje</rd:DefaultName>
+        <ZIndex>11</ZIndex>
+        <Width>5.03968cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!otvaranje.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Line Name="line1">
+        <Left>1.25cm</Left>
+        <Top>1.49999cm</Top>
+        <ZIndex>10</ZIndex>
+        <Width>18.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox19">
+        <Left>1.5cm</Left>
+        <Top>0.75001cm</Top>
+        <ZIndex>9</ZIndex>
+        <Width>3.75cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>800</FontWeight>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Karton pacjenta</Value>
+      </Textbox>
+      <Textbox Name="textbox20">
+        <Left>1.25cm</Left>
+        <Top>3.25cm</Top>
+        <ZIndex>8</ZIndex>
+        <Width>3.75cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Br. osigurane osobe:</Value>
+      </Textbox>
+      <Line Name="line2">
+        <Left>1.25cm</Left>
+        <Top>5.25cm</Top>
+        <ZIndex>7</ZIndex>
+        <Width>18.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="mail">
+        <Left>14cm</Left>
+        <Top>4cm</Top>
+        <rd:DefaultName>mail</rd:DefaultName>
+        <ZIndex>6</ZIndex>
+        <Width>5.71032cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!mail.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Left>11.25cm</Left>
+        <Top>4cm</Top>
+        <ZIndex>5</ZIndex>
+        <Width>2.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>E-Mail:</Value>
+      </Textbox>
+      <Textbox Name="adresa">
+        <Left>14cm</Left>
+        <Top>2.5cm</Top>
+        <rd:DefaultName>adresa</rd:DefaultName>
+        <ZIndex>4</ZIndex>
+        <Width>5.71032cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>1.24999cm</Height>
+        <Value>=First(Fields!adresa.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Textbox Name="textbox23">
+        <Left>11.25cm</Left>
+        <Top>2.5cm</Top>
+        <ZIndex>3</ZIndex>
+        <Width>2.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Adresa:</Value>
+      </Textbox>
+      <Textbox Name="status_1">
+        <Left>4cm</Left>
+        <Top>4cm</Top>
+        <rd:DefaultName>status_1</rd:DefaultName>
+        <ZIndex>2</ZIndex>
+        <Width>6.21032cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!status.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Left>1.25cm</Left>
+        <Top>4cm</Top>
+        <ZIndex>1</ZIndex>
+        <Width>2.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>Participacija:</Value>
+      </Textbox>
+      <Textbox Name="id_osobna">
+        <Left>5cm</Left>
+        <Top>3.25cm</Top>
+        <rd:DefaultName>id_osobna</rd:DefaultName>
+        <Width>5.21032cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.63492cm</Height>
+        <Value>=First(Fields!id_osobna.Value, "dentistDataSet_ListPacjenti")</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>297cm</Height>
+  </Body>
+  <rd:ReportID>96dc906e-0223-49a4-870d-2ea690aaae35</rd:ReportID>
+  <LeftMargin>2.5cm</LeftMargin>
+  <DataSets>
+    <DataSet Name="dentistDataSet_ListPacjenti">
+      <rd:DataSetInfo>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:DataSetName>dentistDataSet</rd:DataSetName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>ListPacjentiTableAdapter</rd:TableAdapterName>
+        <rd:TableName>ListPacjenti</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText>SELECT id_pac, ime_prez, id_osobna, status, part, adresa, mail, otvaranje FROM dbo.ListPacjenti</CommandText>
+        <DataSourceName>SqlConnection</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="id_pac">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_pac</DataField>
+        </Field>
+        <Field Name="ime_prez">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ime_prez</DataField>
+        </Field>
+        <Field Name="id_osobna">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>id_osobna</DataField>
+        </Field>
+        <Field Name="status">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>status</DataField>
+        </Field>
+        <Field Name="part">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>part</DataField>
+        </Field>
+        <Field Name="adresa">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>adresa</DataField>
+        </Field>
+        <Field Name="mail">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>mail</DataField>
+        </Field>
+        <Field Name="otvaranje">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>otvaranje</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="dentistDataSet_ListZahvati_byDate">
+      <rd:DataSetInfo>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:DataSetName>dentistDataSet</rd:DataSetName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>ListZahvati_byDateTableAdapter</rd:TableAdapterName>
+        <rd:TableName>ListZahvati_byDate</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText>SELECT id_pac, termin, zahvat, komentar FROM dbo.ListZahvati_byDate</CommandText>
+        <DataSourceName>SqlConnection</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="id_pac">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>id_pac</DataField>
+        </Field>
+        <Field Name="termin">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>termin</DataField>
+        </Field>
+        <Field Name="zahvat">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>zahvat</DataField>
+        </Field>
+        <Field Name="komentar">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>komentar</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Width>21.5cm</Width>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

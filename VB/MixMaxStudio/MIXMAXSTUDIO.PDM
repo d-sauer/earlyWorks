@@ -1,0 +1,840 @@
+[Root]
+Most Recent Package=Dep File 1
+
+
+[Package|Mix Max Studio ®|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Pokusi\AS\MMS
+
+[Package|Mix Max Studio ®|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mix Max Studio ®|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mix Max Studio ®|Files Found]
+
+[Package|Mix Max Studio ®|Files Released]
+
+[Package|Mix Max Studio ®|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|Mix Max Studio ®|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+
+[Package|Mix Max Studio ®|Files Added]
+D:\MixMax Studio\Snd3.WAV=
+D:\MixMax Studio\Snd2.wav=
+D:\MixMax Studio\Snd1.WAV=
+
+[Package|Mix Max Studio ®|Files Removed]
+
+[Package|Mix Max Studio ®|Files In Project]
+C:\Pokusi\AS\MMStudio.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=Yes
+C:\WINDOWS\SYSTEM\fxtls532.dll=Yes
+C:\WINDOWS\SYSTEM\MFC42.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\MixMax Studio\Oci.ocx=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+
+[Package|Mix Max Studio ®|Configure Registry Files]
+Applicable=
+
+[Package|Mix Max Studio ®|Configure Remote Servers]
+Applicable=
+
+[Package|Mix Max Studio ®|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+
+[Package|Mix Max Studio ®|Configure Shared Files]
+Applicable=
+
+[Package|Mix Max Studio ®|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|Mix Max Studio ®|Package]
+PackageFolder=C:\Pokusi\AS\MMS
+ProjectFolder=D:\MixMax Studio
+ServerSideCab=
+File1=C:\Pokusi\AS\MMS\MMStudio.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Mix Max Studio|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\mmssetup
+
+[Package|Mix Max Studio|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mix Max Studio|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mix Max Studio|Files Found]
+
+[Package|Mix Max Studio|Files Released]
+
+[Package|Mix Max Studio|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\MixMax Studio\MMS Player.exe=
+
+[Package|Mix Max Studio|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+C:\WINDOWS\SYSTEM\fximg50g.ocx=
+
+[Package|Mix Max Studio|Files Added]
+d:\mixmax studio\snd3.wav=
+d:\mixmax studio\snd2.wav=
+d:\mixmax studio\snd1.wav=
+D:\MixMax Studio\MMS Player.exe=
+
+[Package|Mix Max Studio|Files Removed]
+d:\mixmax studio\mms player.exe=
+
+[Package|Mix Max Studio|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=Yes
+C:\WINDOWS\SYSTEM\fxtls532.dll=Yes
+C:\WINDOWS\SYSTEM\MFC42.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\MixMax Studio\Oci.ocx=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+C:\WINDOWS\Desktop\MMStudio=Yes
+C:\WINDOWS\SYSTEM\fximg50g.ocx=Yes
+C:\WINDOWS\SYSTEM\PICN13.DLL=Yes
+C:\WINDOWS\SYSTEM\picn1313.ssm=Yes
+C:\WINDOWS\SYSTEM\PICN1813.SSM=Yes
+C:\WINDOWS\SYSTEM\PICN8213.SSM=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MixMax Studio\MMS Player.exe=No
+
+[Package|Mix Max Studio|Configure Registry Files]
+Applicable=No
+
+[Package|Mix Max Studio|Configure Remote Servers]
+Applicable=No
+
+[Package|Mix Max Studio|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+C:\WINDOWS\Desktop\MMStudio=$(AppPath)
+C:\WINDOWS\SYSTEM\fximg50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICN13.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\picn1313.ssm=$(AppPath)
+C:\WINDOWS\SYSTEM\PICN1813.SSM=$(AppPath)
+C:\WINDOWS\SYSTEM\PICN8213.SSM=$(AppPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MixMax Studio\MMS Player.exe=$(AppPath)
+
+[Package|Mix Max Studio|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\MMStudio=No
+C:\WINDOWS\SYSTEM\picn1313.ssm=Yes
+C:\WINDOWS\SYSTEM\PICN1813.SSM=Yes
+C:\WINDOWS\SYSTEM\PICN8213.SSM=Yes
+D:\MixMax Studio\Snd3.WAV=No
+D:\MixMax Studio\Snd2.wav=No
+D:\MixMax Studio\Snd1.WAV=No
+D:\MixMax Studio\MMS Player.exe=No
+
+[Package|Mix Max Studio|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|Mix Max Studio|Distribution]
+Type=single
+Size=1.44 MB
+Title=MixMaxStudio
+
+[Package|Mix Max Studio|IconGroups]
+Group0=MixMaxStudio
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Mix Max Studio|MixMaxStudio]
+Icon1=MMStudio
+Title1=MixMaxStudio
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Mix Max Studio|Package]
+PackageFolder=d:\mmssetup
+ProjectFolder=D:\MixMax Studio
+ServerSideCab=
+File1=d:\mmssetup\setup.exe
+File2=d:\mmssetup\Setup.Lst
+File3=d:\mmssetup\MMStudio.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MixMax Studio ¤|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\MixMax Setup\SetupRez1
+
+[Package|MixMax Studio ¤|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MixMax Studio ¤|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MixMax Studio ¤|Files Found]
+
+[Package|MixMax Studio ¤|Files Released]
+
+[Package|MixMax Studio ¤|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\MixMax Setup\Regedit.exe=
+
+[Package|MixMax Studio ¤|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+
+[Package|MixMax Studio ¤|Files Added]
+d:\mixmax studio\snd3.wav=
+d:\mixmax studio\snd2.wav=
+d:\mixmax studio\snd1.wav=
+d:\mixmax setup\regedit.exe=
+
+[Package|MixMax Studio ¤|Files Removed]
+
+[Package|MixMax Studio ¤|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+C:\WINDOWS\SYSTEM\Oci.ocx=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+
+[Package|MixMax Studio ¤|Configure Registry Files]
+Applicable=No
+
+[Package|MixMax Studio ¤|Configure Remote Servers]
+Applicable=No
+
+[Package|MixMax Studio ¤|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+D:\MixMax Studio\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Oci.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MixMax Setup\Regedit.exe=$(AppPath)
+
+[Package|MixMax Studio ¤|Configure Shared Files]
+Applicable=Yes
+D:\MixMax Studio\MMStudio.exe=No
+D:\MixMax Studio\Snd3.WAV=No
+D:\MixMax Studio\Snd2.wav=No
+D:\MixMax Studio\Snd1.WAV=No
+D:\MixMax Setup\Regedit.exe=No
+
+[Package|MixMax Studio ¤|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|MixMax Studio ¤|Distribution]
+Type=single
+Size=1.44 MB
+Title=MixMaxStudio ®
+
+[Package|MixMax Studio ¤|IconGroups]
+Group0=MixMaxStudio ®
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MixMax Studio ¤|MixMaxStudio ®]
+Icon1=Regedit.exe
+Title1=Update Regedit
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2=MMStudio.exe
+Title2=MixMaxStudio
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|MixMax Studio ¤|Package]
+PackageFolder=d:\MixMax Setup\SetupRez1
+ProjectFolder=D:\MixMax Studio
+ServerSideCab=
+File1=d:\MixMax Setup\SetupRez1\setup.exe
+File2=d:\MixMax Setup\SetupRez1\Setup.Lst
+File3=d:\MixMax Setup\SetupRez1\MMStudio.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MixMax Studio Instalation|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\MixMax Setup\Setup
+
+[Package|MixMax Studio Instalation|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MixMax Studio Instalation|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MixMax Studio Instalation|Files Found]
+
+[Package|MixMax Studio Instalation|Files Released]
+
+[Package|MixMax Studio Instalation|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\MixMax Setup\Regedit.exe=
+
+[Package|MixMax Studio Instalation|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+
+[Package|MixMax Studio Instalation|Files Added]
+d:\mixmax studio\snd3.wav=
+d:\mixmax studio\snd2.wav=
+d:\mixmax studio\snd1.wav=
+d:\mixmax setup\regedit.exe=
+D:\MixMax Setup\MMS Player.exe=
+
+[Package|MixMax Studio Instalation|Files Removed]
+
+[Package|MixMax Studio Instalation|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+C:\WINDOWS\SYSTEM\Oci.ocx=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+D:\MixMax Setup\MMS Player.exe=Yes
+
+[Package|MixMax Studio Instalation|Configure Registry Files]
+Applicable=No
+
+[Package|MixMax Studio Instalation|Configure Remote Servers]
+Applicable=No
+
+[Package|MixMax Studio Instalation|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+D:\MixMax Studio\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Oci.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MixMax Setup\Regedit.exe=$(AppPath)
+D:\MixMax Setup\MMS Player.exe=$(AppPath)
+
+[Package|MixMax Studio Instalation|Configure Shared Files]
+Applicable=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+D:\MixMax Setup\MMS Player.exe=Yes
+
+[Package|MixMax Studio Instalation|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|MixMax Studio Instalation|Distribution]
+Type=single
+Size=1.44 MB
+Title=MixMax Studio
+
+[Package|MixMax Studio Instalation|IconGroups]
+Group0=MixMaxStudio ®
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MixMax Studio Instalation|MixMaxStudio ®]
+Icon1=MMS Player.exe
+Title1=MMS Player
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2=MMStudio.exe
+Title2=MixMaxStudio
+StartIn2=$(AppPath)
+Key2=Icon1
+Icon3=Regedit.exe
+Title3=Update Regedit
+StartIn3=$(AppPath)
+Key3=Icon3
+
+[Package|MixMax Studio Instalation|Package]
+PackageFolder=d:\MixMax Setup\Setup
+ProjectFolder=D:\MixMax Studio
+ServerSideCab=
+File1=d:\MixMax Setup\Setup\setup.exe
+File2=d:\MixMax Setup\Setup\Setup.Lst
+File3=d:\MixMax Setup\Setup\MMStudio.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MixMax Studio|MixMaxStudio ®]
+Icon1=MMS Player.exe
+Title1=MMS Player
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2=MMStudio.exe
+Title2=MixMaxStudio
+StartIn2=$(AppPath)
+Key2=Icon1
+Icon3=Regedit.exe
+Title3=Update Regedit
+StartIn3=$(AppPath)
+Key3=Icon3
+
+
+[Package|MixMax Studio|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\MixMax Setup\Setup
+
+[Package|MixMax Studio|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MixMax Studio|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MixMax Studio|Files Found]
+
+[Package|MixMax Studio|Files Released]
+
+[Package|MixMax Studio|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\MixMax Setup\Regedit.exe=
+
+[Package|MixMax Studio|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+
+[Package|MixMax Studio|Files Added]
+d:\mixmax studio\snd3.wav=
+d:\mixmax studio\snd2.wav=
+d:\mixmax studio\snd1.wav=
+d:\mixmax setup\regedit.exe=
+d:\mixmax setup\mms player.exe=
+
+[Package|MixMax Studio|Files Removed]
+
+[Package|MixMax Studio|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+C:\WINDOWS\SYSTEM\Oci.ocx=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+D:\MixMax Setup\MMS Player.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|MixMax Studio|Configure Registry Files]
+Applicable=No
+
+[Package|MixMax Studio|Configure Remote Servers]
+Applicable=No
+
+[Package|MixMax Studio|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+D:\MixMax Studio\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Oci.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MixMax Setup\Regedit.exe=$(AppPath)
+D:\MixMax Setup\MMS Player.exe=$(AppPath)
+
+[Package|MixMax Studio|Configure Shared Files]
+Applicable=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+D:\MixMax Setup\MMS Player.exe=Yes
+
+[Package|MixMax Studio|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|MixMax Studio|Distribution]
+Type=single
+Size=1.44 MB
+Title=MixMax Studio
+
+[Package|MixMax Studio|IconGroups]
+Group0=MixMaxStudio
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MixMax Studio|MixMaxStudio]
+Icon1=MMStudio.exe
+Title1=MixMaxStudio
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=MMS Player.exe
+Title2=MMS Player
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Regedit.exe
+Title3=Update
+StartIn3=$(AppPath)
+Key3=Icon3
+
+[Package|MixMax Studio|Package]
+PackageFolder=d:\MixMax Setup\Setup
+ProjectFolder=D:\MixMax Studio
+ServerSideCab=
+File1=d:\MixMax Setup\Setup\setup.exe
+File2=d:\MixMax Setup\Setup\Setup.Lst
+File3=d:\MixMax Setup\Setup\MMStudio.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|MixMaxStudio ®]
+Icon1=MMS Player.exe
+Title1=MMS Player
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2=MMStudio.exe
+Title2=MixMaxStudio
+StartIn2=$(AppPath)
+Key2=Icon1
+Icon3=Regedit.exe
+Title3=Update Regedit
+StartIn3=$(AppPath)
+Key3=Icon3
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=d:\MMSetup\Setup1
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+mms player.exe=
+regedit.exe=
+snd1.wav=
+snd2.wav=
+snd3.wav=
+
+[Package|Dep File 1|Missing Dependency Information]
+D:\MixMax Studio\Oci.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\MixMax Setup\Regedit.exe=
+C:\WINDOWS\SYSTEM\OCI.OCX=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\SYSTEM\MFC42.DLL=
+
+[Package|Dep File 1|Files Added]
+snd3.wav=
+snd2.wav=
+snd1.wav=
+regedit.exe=
+mms player.exe=
+D:\MIXMAX_STUDIO\SND1.WAV=
+D:\MIXMAX_STUDIO\SND2.WAV=
+D:\MIXMAX_STUDIO\SND3.WAV=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\Oci.ocx=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+D:\MMStudio.exe=Yes
+D:\MIXMAX_STUDIO\SND1.WAV=Yes
+D:\MIXMAX_STUDIO\SND2.WAV=Yes
+D:\MIXMAX_STUDIO\SND3.WAV=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Pokusi\AS\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxrtx50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\fxtls532.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\fxshp50g.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\MixMax Studio\Oci.ocx=$(WinSysPath)
+D:\MixMax Studio\Snd3.WAV=$(AppPath)
+D:\MixMax Studio\Snd2.wav=$(AppPath)
+D:\MixMax Studio\Snd1.WAV=$(AppPath)
+D:\MixMax Studio\MMStudio.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Oci.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MixMax Setup\Regedit.exe=$(AppPath)
+D:\MixMax Setup\MMS Player.exe=$(AppPath)
+D:\MMStudio.exe=$(AppPath)
+D:\MIXMAX_STUDIO\SND1.WAV=$(AppPath)
+D:\MIXMAX_STUDIO\SND2.WAV=$(AppPath)
+D:\MIXMAX_STUDIO\SND3.WAV=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\MixMax Studio\MMStudio.exe=Yes
+D:\MixMax Studio\Snd3.WAV=Yes
+D:\MixMax Studio\Snd2.wav=Yes
+D:\MixMax Studio\Snd1.WAV=Yes
+D:\MixMax Setup\Regedit.exe=Yes
+D:\MixMax Setup\MMS Player.exe=Yes
+
+[Package|Dep File 1|DepFile]
+DepCabFile=MMStudio.CAB
+DepCabRun=MMStudio.INF
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=MixMax Studio
+
+[Package|Dep File 1|IconGroups]
+Group0=MixMaxStudio
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|MixMaxStudio]
+Icon1=MMStudio.exe
+Title1=MixMaxStudio
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=MMS Player.exe
+Title2=MMS Player
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Regedit.exe
+Title3=Update
+StartIn3=$(AppPath)
+Key3=Icon3
+
+[Package|Dep File 1|Package]
+PackageFolder=d:\MMSetup\Setup1
+ProjectFolder=D:\MIXMAX_STUDIO
+ServerSideCab=
+File1=d:\MMSetup\Setup1\MMStudio.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

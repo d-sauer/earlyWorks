@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ISP_pp
+</name>
+</assembly>
+<members>
+<member name="P:ISP_pp.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ISP_pp.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ISP_pp.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.dobavljacDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gpp_analitickiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mjerne_jedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_artDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_prDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.normeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvorene_narDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvoreni_nalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.pppDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.proizvodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.projektDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.radno_mjestoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokoviDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_rad_mjDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sastavnicaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sifarnikDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.kolicinska_sastavnicaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.chart_pppDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.ot_naru_loadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gantogramDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_by_IDrmDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.dobavljacRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gpp_analitickiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mjerne_jedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_artRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_prRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.normeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvorene_narRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvoreni_nalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.pppRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.proizvodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.projektRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.radno_mjestoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokoviRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_rad_mjRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sastavnicaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sifarnikRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.kolicinska_sastavnicaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.chart_pppRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.ot_naru_loadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gantogramRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_by_IDrmRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.dobavljacRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gpp_analitickiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mjerne_jedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_artRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.mrp_prRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.normeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvorene_narRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.otvoreni_nalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.pppRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.proizvodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.projektRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.radno_mjestoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokoviRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_rad_mjRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sastavnicaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.sifarnikRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.kolicinska_sastavnicaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.chart_pppRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.ot_naru_loadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.gantogramRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet.rokovi_by_IDrmRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ISP_pp.DBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.dobavljacTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.gpp_analitickiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.mjerne_jedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.mrp_artTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.mrp_prTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.normeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.otvorene_narTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.otvoreni_nalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.pppTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.proizvodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.projektTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.radno_mjestoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.rokoviTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.rokovi_rad_mjTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.sastavnicaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.sifarnikTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.kolicinska_sastavnicaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.chart_pppTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.ot_naru_loadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.gantogramTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.rokovi_by_IDrmTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ISP_pp.DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ISP_pp.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ISP_pp.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.UpdateAll(ISP_pp.DBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ISP_pp.DBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

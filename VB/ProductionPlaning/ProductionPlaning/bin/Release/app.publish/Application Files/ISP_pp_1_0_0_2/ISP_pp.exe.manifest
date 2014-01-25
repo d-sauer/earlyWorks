@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ISP_pp.exe" version="1.0.0.2" publicKeyToken="bb24d0d5139bce60" language="hr" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="Davor Sauer" asmv2:product="Inf sustav proizvodnje" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ISP_pp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ISP_pp.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ISP_pp.exe" size="657920">
+      <assemblyIdentity name="ISP_pp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gW6p9bdoz94l0TKLFGPjH5Gbug4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ISP_pp.exe.config" size="1663">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TsMiKT2M+foWVDHxAPRFmepBnns=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Davor Sauer" issuerKeyHash="827d64ab2fd8efe09d8e5f1d16e7d7a5095b88e8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8k0CuV20vfOu1EQPAyQMRE0GA+A=</DigestValue></Reference></SignedInfo><SignatureValue>QgRFu2WD/forpCRmAXlqH7+FRj0rcxINrmL1Gjno8ESDHYCl/CxIDDggdj6XwAXzHN2SGvtDJoVy/qx6G0jQkc2t9pcbqatIUoUVdoe2cNmYn2ImPrvznMpbMy3iZJCVTcn+6DumCpMXOIVYPAK220r7+ry7gpc3RC7YGK4vYFA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xQc0i2SXGwssn6IkQ2c85eOYr3iOC8zqoG67vx/6RcVvUPULqPa6e4yFt4yZRwGXQpbIvgUhr4+Ke8w9EWGX0wp/K9lVy2vfK+VvZwsooCDUJx7sIPwqMF4efiEZ9o6SqKTW5nJr1FS572GgcKLqsQdgtU4qV4abgqttNv9nKc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e003064d440c24030f44d4aef3bdb45db9024df2" Description="" Url=""><as:assemblyIdentity name="ISP_pp.exe" version="1.0.0.2" publicKeyToken="bb24d0d5139bce60" language="hr" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Davor Sauer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>o+L/nxomXq98TqBe1RZghTbLGQU=</DigestValue></Reference></SignedInfo><SignatureValue>agFeo1yNMnA/BoUd017/kLXfnD7GdGgH3IE2XWOOWxr0LyJ+4r8KrdZJQbYsWAXbpCqIuz+qiw2a7CpNptZWPso7T3LAuy2b4SC0Uvs2MWfSfeztulNgnwcGiS5OjoSZA2nyjnRPNfrYpzlInQwzJROb2QlMDPH7yIfINhOrSZQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xQc0i2SXGwssn6IkQ2c85eOYr3iOC8zqoG67vx/6RcVvUPULqPa6e4yFt4yZRwGXQpbIvgUhr4+Ke8w9EWGX0wp/K9lVy2vfK+VvZwsooCDUJx7sIPwqMF4efiEZ9o6SqKTW5nJr1FS572GgcKLqsQdgtU4qV4abgqttNv9nKc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQ+jy9QbAn3YhKyBjaZnYyFTANBgkqhkiG9w0BAQQFADAWMRQwEgYDVQQDEwtEYXZvciBTYXVlcjAeFw0wNzEyMzEyMjAwMDBaFw0xMzEyMzEyMjAwMDBaMBYxFDASBgNVBAMTC0Rhdm9yIFNhdWVyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFBzSLZJcbCyyfoiRDZzzl45iveI4LzOqgbru/H/pFxW9Q9Quo9rp7jIW3jJlHAZdClsi+BSGvj4p7zD0RYZfTCn8r2VXLa98r5W9nCyigINQnHuwg/CowXh5+IRn2jpKopNbmcmvUVLnvYaBwouqxB2C1TipXhpuCq202/2cpzQIDAQABo2AwXjATBgNVHSUEDDAKBggrBgEFBQcDAzBHBgNVHQEEQDA+gBCY8mdfY9Y58Fs9G1Hr1HKWoRgwFjEUMBIGA1UEAxMLRGF2b3IgU2F1ZXKCEPo8vUGwJ92ISsgY2mZ2MhUwDQYJKoZIhvcNAQEEBQADgYEAlT4740McyGpZKIYh7xl2cHEE4IIOTo+j7XS0Q/DSy+v6JGxpZQtMzbQ5i6Kc+0Rt+uvsqSTEZvTu1kp48+s08qGnShDLlwFnuXkti1jmamkWsQmaKU726mK51oTppmq4rfSWCjprVBFjMmYTsZv+EDrcV1kHn5W7TEMmo1a2ohs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

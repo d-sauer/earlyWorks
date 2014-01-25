@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Dentist.exe" version="1.0.0.8" publicKeyToken="51b5f7191934cd83" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tooth.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Dentist" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Dentist.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dentist.exe" size="659456">
+      <assemblyIdentity name="Dentist" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zRXHfAni8v6ThOQ0b2X4Fd6L+/g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Dentist.exe.config" size="1663">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/vWqOHFQrCKpQteNHama+uRf7gQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\zahvati.jpg" size="8824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7It3sjm9vcBIYfSuWITSz+sAdpY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tooth.ico" size="3774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fnScsEHUT8c4JM79puNYTSQGIP0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZIRAF\sheky" issuerKeyHash="d3b7d2dff9028ade9f99794bf7d9d7d407a78c5d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>066ZyNtoq/XmlaJa/oEVJKg6dbE=</DigestValue></Reference></SignedInfo><SignatureValue>HKzFwDxqpwL6+qjp/KcrbJ/O7ypLaVrjp2N8X1PB7gZRFydSq2Na+sks2gWEiZmx05j9t3Kvq/N5omjSZbHaSwvJvefylvctuZNzWIUWtXPzPEEgbToLqcmQtbYG+ptx591zrj6BgMLx+rnbwOOmeGL1XlHS20mMYCgtvmi2quU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n+C5GOHOmjLIXW80rGXhT8I8Ci0A1LO/DPj4pA+Q6pCtY0/r5Cf/REHEtiNcnvSRlBuwxFpszIaTHN3w52GWgAs1pA9VWEHyrWrM5x90sucBBUZUijdgqqoJ1WDz+IXSgT5D5guMxjqCAS3QpmYCXN9V+TN6hdRtz4HAepj5VUs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b1753aa8241581fe5aa295e6f5ab68dbc899aed3" Description="" Url=""><as:assemblyIdentity name="Dentist.exe" version="1.0.0.8" publicKeyToken="51b5f7191934cd83" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZIRAF\sheky</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UoxC9OPad27R+zoAmc+49o4i4Iw=</DigestValue></Reference></SignedInfo><SignatureValue>aLHGXKI5g9nzkCrwU+07dE+RBxqXqrjC1F6dBO8cax3RJQvCOFrLmQsCyxkj62PF0KPYNwmbEphRTwrjdJpu8IbWykiXtBLqnoCDozSAAz+lAWgiOvZTITdxi7u8KwU9kHRu4mdsrWxtzwIu0F5QNd8VMaFL7e3S2KkWfiIEYfc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n+C5GOHOmjLIXW80rGXhT8I8Ci0A1LO/DPj4pA+Q6pCtY0/r5Cf/REHEtiNcnvSRlBuwxFpszIaTHN3w52GWgAs1pA9VWEHyrWrM5x90sucBBUZUijdgqqoJ1WDz+IXSgT5D5guMxjqCAS3QpmYCXN9V+TN6hdRtz4HAepj5VUs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASqgAwIBAgIQpnB03i6UWIJHADF1ORwe5DAJBgUrDgMCHQUAMCExHzAdBgNVBAMeFgBaAEkAUgBBAEYAXABzAGgAZQBrAHkwHhcNMDcwNDE2MjMzNTIyWhcNMDgwNDE2MDUzNTIyWjAhMR8wHQYDVQQDHhYAWgBJAFIAQQBGAFwAcwBoAGUAawB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCf4LkY4c6aMshdbzSsZeFPwjwKLQDUs78M+PikD5DqkK1jT+vkJ/9EQcS2I1ye9JGUG7DEWmzMhpMc3fDnYZaACzWkD1VYQfKtasznH3Sy5wEFRlSKN2CqqgnVYPP4hdKBPkPmC4zGOoIBLdCmZgJc31X5M3qF1G3PgcB6mPlVSwIDAQABMAkGBSsOAwIdBQADgYEAS0e62VmQgnuc2kFsk+dU52DM6OWvzJATsUSBPeiNqaLrX2S1Now08HW3YiS6fxdzUKG+7B6mopF1TMJSbhwOicJxXnKHlm8Xz/t0PZJ/Dh/3Vckzp6Zwv8GrKs138urKYIgspQMccWvOK6c5ZekMN3TbSdDfq8Pkr/gJSI3aePE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

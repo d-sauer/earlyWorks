@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<servers>
+<server>
+<host>localhost</host>
+<database>PzaWeb2007_17</database>
+<user>PzaWeb2007_17</user>
+<pass>admin_R07b</pass>
+<page>6</page>
+</server>
+</servers>

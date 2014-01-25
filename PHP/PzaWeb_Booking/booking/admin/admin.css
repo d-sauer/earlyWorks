@@ -1,0 +1,163 @@
+#korisniciTrazilica{ 
+  margin:0px;
+  width:194px; 
+}
+#txt1{ 
+  margin:0px;
+} 
+div.siteContainer{
+	width:1000px;
+	border:solid 1px;
+	border-color:#CCCCCC;
+	margin:auto;
+
+}
+div.headerContainer{
+	width:100%;
+	background-color:#333333;
+	text-align:left;
+	text-decoration:underline;
+	font-size:24px;
+	color:#FFFFFF;
+	padding-top:80px;
+}
+div.menuu{
+	text-align:right;
+}
+div.menuu a{
+	text-decoration:none;
+}
+div.menuu a:hover{
+	background-color:#99D1FB;
+}
+div.menuContainer{
+	width:200px;;
+	float:left;
+}
+div.aktContainer{
+	width:790px;
+	float:left;
+}
+div.footer{
+	width:100%;
+	height:50px;
+	background-color:#333333;
+}
+
+div.smjestaj{
+	width:100%;
+	border-style:solid;
+	border-color:rgb(204, 204, 204);
+	border-width: 1px 0pt 0pt;
+	float:left;
+}
+
+.smjestajLijevo{
+	width:150px;;
+	float:left;
+}
+.smjestajSredina{
+	width:500px;
+	float:left;
+}
+.smjestajDesno{
+	width:100px;
+	float:left;
+}
+.clear{
+	clear:both;
+	height:1px;
+}
+#Sostalo{
+	display:none;
+}
+
+.tableHeader{
+	background:#46525D none repeat scroll 0%;
+	color:#FFFFFF;
+	padding:0,2em;
+}
+td.link{
+	text-align:center;
+}
+table{
+	empty-cells:show;
+}
+div.izborObjekt{
+	border: #CCCCCC solid 1px;
+	width:150px;
+}
+div.selectObjekt{
+	border:#999999 solid 1px;
+	border-color:#CCCCCC;
+}
+
+.formaHead{
+	color:#000066;
+	background-color:#d9e0f0;
+	text-align:left;
+}
+.formaControl{
+	background-color:#d9e0f0;
+	text-align:right;
+}
+.divControl{
+	background-color:#d9e0f0;
+	text-align:left;
+}
+.napomena{
+	font-size:10px;
+}
+td.tCheck{
+	width:50px;
+}
+.nav span{
+	color:#333333;
+}
+.nav a{
+	color:#000099;
+	text-decoration:none;
+}
+.nav a:hover{
+	background-color:#0066FF;
+}
+.listHotel{
+	width:100%;
+}
+.listHotel strong{
+	color:#000099;
+}
+.listHotel td{
+	border-bottom:solid 1px;
+	border-bottom-color:#E5E5E5;
+}
+.listSmjestaj{
+	width:100%;
+}
+.listSmjestaj td{
+	border-bottom:solid 1px;
+	border-bottom-color:#E5E5E5;
+}
+	
+#f1_upload_process{
+	      z-index:100;
+	      position:absolute;
+	      visibility:hidden;
+	      text-align:center;
+	      width:400px;
+	      margin:0px;
+	      padding:0px;
+	      background-color:#fff;
+	      border:1px solid #ccc;
+}
+form.upload{
+		  text-align:center;
+	      width:390px;
+	      margin:0px;
+	      padding:5px;
+	      background-color:#fff;
+	      border:1px solid #ccc;
+}
+.pic{
+	float:left;
+}

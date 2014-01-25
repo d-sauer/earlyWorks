@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+hr {
+	border-top: 1px solid #B95C12;
+	border-bottom: 1px solid #FAE1CC;	
+}
+
+div.admin {
+	background-color: #FFFFFF;
+	margin-top: 7px;	
+}
+
+.bijelo {
+	background-color: #FFFFFF;
+	margin-top: 7px;	
+}
+
+
+.btn150{
+	width: 150px;
+	margin: 2px;		
+}
+
+.table1 th {
+	border-bottom: 1px solid #B95C12;	
+}
+
+/* tv raspored */
+div.tv_raspored {
+	width: 320px;
+	float: left;
+	border: 1px solid #B95C12;
+	margin: 2px;
+	
+}
+
+div.opis{
+	padding: 2px;
+	border: 1px dotted #B95C12;	
+}
+
+div.tv_raspored table th{
+	background-color: #F1A96F;
+	font-weight: bold;
+	color: #000000;
+}
+
+span.kategorija {
+	color: #B95C12;
+	font-weight: bold;
+}
+
+.highlight { background-color: yellow }
+
+.naslov
+	{
+	font-size:16px;
+	}
+	
+#d_linkovi {
+	padding: 5px;
+	width: 400px;
+	border: 1px solid gray;
+}
+
+#d_registracija {
+	margin-top: 10px;
+	padding: 5px;
+	width: 400px;
+	border: 1px solid #ff0000;
+}
+
+.fokus {
+	background-color: #FFFFD4;
+}
+
+.greska {
+	background-color: #FFD4D4;
+}
+
+.bez_fokusa {
+	background-color: #FFFFFF;
+}

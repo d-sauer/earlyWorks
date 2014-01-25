@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<servers>
+<server>
+<host>localhost</host>
+<database>jelennas_jelennas</database>
+<user>jelennas_jelen</user>
+<pass>R4stovac</pass>
+</server>
+
+<admin>
+	<username>zsauer</username>
+	<password>R4stovac</password>
+</admin>
+
+<clan>
+	<username>jelen</username>
+	<password>3148785</password>
+</clan>
+
+
+</servers>
