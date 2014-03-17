@@ -4,17 +4,17 @@
 <host>localhost</host>
 <database>jelennas_jelennas</database>
 <user>jelennas_jelen</user>
-<pass>R4stovac</pass>
+<pass></pass>
 </server>
 
 <admin>
 	<username>zsauer</username>
-	<password>R4stovac</password>
+	<password></password>
 </admin>
 
 <clan>
 	<username>jelen</username>
-	<password>3148785</password>
+	<password></password>
 </clan>
 
 
